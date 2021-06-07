@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    background-color:#554cac;
+    font-family: open sans, sans-serif;
+     /*margin:0 auto;*/
+     margin: 0px 0px 30px 0px;
+    }
+  
+    h1 {
+    font-size: 60px;
+    font-weight:300;
+    color:#f7f7f7;
+  }
+  h2{
+    color:#551f6b;
+    font-size: 40px;
+   }
+   h3{
+     font-size:22px;
+     font-style: italic;
+   }
+   p{
+  font-size: 20px;
+  line-height: 1.5; /** ajusta altura das linhas dos paragrafos*/
+  margin: 0;
+  text-indent: 3ch; /*Organizou os paragraphs*/
+  margin-bottom: 2em; /*Aumenta espaço em branco após um parágrafo*/
+   }
+   .titulo-ada {
+     color:#3c1144;
+   }
+   .titulo-verde{
+    color:#04ff9f;
+  }
+  .titulo-amarelo {
+    color:#ffe36d;
+  }
+  .titulo-vermelho {
+    color:#FF9E9E;
+  }
+  section{
+      width: 60%;
+      margin:0 auto;
+  }
+  section section {
+    width: 100%; /*ajusta a largura do texto */
+  }
+   img {
+     width: 50%;
+     height: 50%;
+     margin: 1em; /*Aplica margem para os 4 lados*/
+     border-radius: 50%;
+   }
+   #adaTable {
+     width: 400px;
+     height: 200px;
+   }
+   ul{
+      list-style-type: none;/*retira as bolinhas marcadoras da unordened list*/
+      line-height: 2;
+      padding-left: 0;
+   }
+   a {
+     text-decoration: none;
+     color:#99ffff;
+     font-weight: 700;
+  
+     }
+     .menu {
+    background-color: rgb(223, 117, 152);
+    height: 40px;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;/**Arredondando bordas*/
+    }
+     .menu a {
+       color:#FFF;
+       text-decoration: underline;/*deixa sublinhado*/
+       font-weight: normal;
+    }
+    .menu li {
+      display:inline-block;
+      line-height: 2.5;
+      margin: 0 30px;
+    }
+    .formulario-e-links h4{
+      color:#f7f7f7;
+    }
+    .formulario-e-links form{
+      color:#f7f7f7;
+    }
+    form input{
+      width: 200px;
+      height: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 0 0;
+    }
+    button {
+      height: 30px;
+      background-color:  #41f341;
+      border: transparent 1px solid;
+      padding: 2px 20px;
+      border-radius: 3px;
+    }
+  
